@@ -1,0 +1,174 @@
+﻿.boy {
+    position: absolute;
+    background-image: url(image/ninjaBoy/Attack__000.png);
+    animation-name: boy;
+    background-size: contain;
+    background-repeat:no-repeat;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+}
+
+@keyframes boy
+{
+    0%  {
+        background-image:url(image/ninjaBoy/Attack__000.png);
+
+    }
+    10% {
+        background-image:url(image/ninjaBoy/Attack__001.png);
+
+    }
+    20% {
+        background-image: url(image/ninjaBoy/Attack__002.png);
+    }
+    30% {
+        background-image: url(image/ninjaBoy/Attack__003.png);
+    }
+    40% {
+        background-image: url(image/ninjaBoy/Attack__004.png);
+    }
+    50% {
+        background-image: url(image/ninjaBoy/Attack__005.png);
+    }
+    60% {
+        background-image: url(image/ninjaBoy/Attack__006.png);
+    }
+    70% {
+        background-image: url(image/ninjaBoy/Attack__007.png);
+    }
+    80% {
+        background-image: url(image/ninjaBoy/Attack__008.png);
+    }
+    90% {
+        background-image: url(image/ninjaBoy/Attack__009.png);
+    }
+    100% {
+        background-image: url(image/ninjaBoy/Attack__0010.png);
+    }
+}
+
+.girl {
+    position: absolute;
+    animation-name: girl;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+}
+
+@keyframes girl
+{
+    0% {
+        background-image : url(image/ninjaGirl/Attack__000.png);
+    }
+    10% {
+        background-image: url(image/ninjaGirl/Attack__001.png);
+    }
+    20% {
+        background-image: url(image/ninjaGirl/Attack__002.png);
+    }
+    30% {
+        background-image: url(image/ninjaGirl/Attack__003.png);
+    }
+    40% {
+        background-image: url(image/ninjaGirl/Attack__004.png);
+    }
+    50% {
+        background-image: url(image/ninjaGirl/Attack__005.png);
+    }
+    60% {
+        background-image: url(image/ninjaGirl/Attack__006.png);
+    }
+    70% {
+        background-image: url(image/ninjaGirl/Attack__007.png);
+    }
+    80% {
+        background-image: url(image/ninjaGirl/Attack__008.png);
+    }
+    90% {
+        background-image: url(image/ninjaGirl/Attack__009.png);
+    }
+    100% {
+        background-image: url(image/ninjaGirl/Attack__010.png);
+    }
+}
+
+.robot {
+    position: absolute;
+    animation-name: robot;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+}
+
+@keyframes robot
+{
+    0% {
+        background-image: url('image/robot/Idle (9).png');
+    }
+
+    10% {
+        background-image: url('image/robot/Run (1).png');
+    }
+
+    20% {
+        background-image: url('image/robot/Run (2).png');
+    }
+
+    30% {
+        background-image: url('image/robot/Run (3).png');
+    }
+
+    40% {
+        background-image: url('image/robot/Run (4).png');
+    }
+
+    50% {
+        background-image: url('image/robot/Run (5).png');
+    }
+
+    60% {
+        background-image: url('image/robot/Run (6).png');
+    }
+
+    70% {
+        background-image: url('image/robot/Run (7).png');
+    }
+
+    80% {
+        background-image: url('image/robot/Run (8).png');
+    }
+
+    90% {
+        background-image: url('image/robot/Run (1).png');
+    }
+
+    100% {
+        background-image: url('image/robot/Idle (10).png');
+    }
+}
+
+.countDown {
+    position: absolute;
+    animation-name: countDown;
+    background-size: contain;
+    background-image: url(image/3.png);
+    background-repeat: no-repeat;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes countDown
+{
+    0% {
+        background-image : url(image/3.png);
+    }
+    70% {
+        background-image : url(image/2.png);
+    }
+    100% {
+        background-image : url(image/1.png);
+    }
+}
